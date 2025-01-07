@@ -439,13 +439,15 @@ footer {
     width: 15%;
     bottom: -17%;
     height: 5px;
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .project_text > h1::before {
     width: 25%;
-    bottom: 80%;
+    bottom: 100%;
     height: 6px;
+    display: none;
   }
 }
